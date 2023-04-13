@@ -1,0 +1,40 @@
+.containerMainTech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.techbouble{
+    display: flex;
+    gap: 20px;
+    margin: 0 0 50px 0 ;
+    
+}
+
+.techDos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frontIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.frontIcons img{
+    width: 72px;
+    height: 72px;
+}

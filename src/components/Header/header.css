@@ -1,0 +1,45 @@
+.containerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+}
+
+.containerBox{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: var(--main-secondary-color);
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.contInfo{
+    width: 100%;
+}
+
+.contInfo h3{
+    padding: 15px 0;
+}
+
+.contImg img{
+    width: 100%;
+}
+
+.buttonHeader{
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 1px solid var(--main-primary-color);
+}
+
+.buttonHeader:hover{
+    background-color: var(--main-primary-color);
+    color: var(--main-terciary-color);
+}
+
+.btnActive{
+    background-color: var(--main-primary-color);
+    color: var(--main-terciary-color);
+}

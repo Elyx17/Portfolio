@@ -1,0 +1,21 @@
+.navbarContainer{
+    padding: 0;
+}
+
+.navbarPortfolio{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.button{
+    height: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    border: 1px solid white;
+    gap: 5px;
+    width: 155px;
+}
