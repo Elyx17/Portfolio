@@ -1,6 +1,37 @@
 :root {
   --main-bg-color: brown;
   --main-primary-color: #e2e1e8;
-  --main-secondary-color: #d7cece;
-  --main-terciary-color: #c01a1a;
+  --main-secondary-color: #5c5973;
+  --main-alert-color: #c01a1a;
+  --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+}
+
+@font-face {
+  font-family: 'Title';
+  src: url('../public/fonts/fontTitle.TTF');
+}
+
+@font-face {
+  font-family: 'Sub';
+  src: url('../public/fonts/fontSub.TTF');
+}
+
+@font-face {
+  font-family: 'Heart';
+  src: url('../public/fonts/fontHeart.otf');
+}
+
+@font-face {
+  font-family: 'A';
+  src: url('../public/fonts/fontGalaxy.ttf');
+}
+
+@font-face {
+  font-family: '1';
+  src: url('../public/fonts/fontButtons.ttf');
+}
+
+@font-face {
+  font-family: 'P';
+  src: url('../public/fonts/fontP.otf');
 }

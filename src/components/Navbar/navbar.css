@@ -1,21 +1,51 @@
 .navbarContainer{
     padding: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .navbarPortfolio{
     flex-direction: row-reverse;
     justify-content: space-between;
+    font-family: '1';
+    font-size: .6rem;
+    word-spacing: -5px;
+    color: var(--main-secondary-color);
 }
 
-.button{
+.listNavItems li a{
+    color: var(--main-secondary-color);
+
+}
+
+.navIcons{
+    font-size: 1.5rem;
+    padding: 0 5px !important;
+}
+
+.downloadIcon{
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+.downloadButton a{
+    text-decoration: none !important;
+}
+
+.buttonDownload{
     height: 25px;
-    color: white;
+    color: var(--main-secondary-color);
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: .7rem;
-    border: 1px solid white;
+    font-size: .6rem;
+    border: 1px solid var(--main-secondary-color);
     gap: 5px;
-    width: 155px;
+    min-width: 154px;
+    border-radius: 25px;
+}
+
+.buttonDownload:hover{
+    border: 1px solid var(--main-secondary-color);
 }

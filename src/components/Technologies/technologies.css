@@ -3,7 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px;
+    height: 100vh;
+    width: 100%;
+    gap: 50px;
+}
+
+.containerMainTech h2{
+    color: var(--main-primary-color);
+    font-size: 1.7rem;
 }
 
 .tech{
@@ -14,11 +21,16 @@
     margin: 50px 0;
 }
 
+.techTitle h3{
+    color: var(--main-primary-color);
+}
+
 .techbouble{
     display: flex;
-    gap: 20px;
+    justify-content: center;
     margin: 0 0 50px 0 ;
-    
+    width: 100%;
+    gap: 200px;
 }
 
 .techDos{

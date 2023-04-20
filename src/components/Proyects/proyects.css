@@ -1,0 +1,51 @@
+#proyects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerMainProyects{
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poyectsTitle h2{
+    color: var(--main-primary-color);
+    font-size: 1.7rem;
+    margin: 50px;
+}
+
+.proyectsList{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.proyect{
+    height: 400px;
+    width: 500px;
+    background-color: black;
+}
+
+.verMasButton{
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 1px solid var(--main-primary-color);
+    color: var(--main-primary-color);
+    font-family: '1';
+    font-size: .6rem;
+}
+
+.verMasButton:hover{
+    border: 1px solid var(--main-primary-color);
+    background-color: var(--main-primary-color);
+    color: var(--main-alert-color);
+}

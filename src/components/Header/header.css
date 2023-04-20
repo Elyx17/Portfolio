@@ -2,17 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6rem 0;
+    height: 100vh;
 }
 
 .containerBox{
     display: flex;
-    width: 800px;
-    height: 400px;
-    background-color: var(--main-secondary-color);
+    width: 1300px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     padding: 25px;
+    color: var(--main-primary-color);
+    gap: 50px;
 }
 
 .contInfo{
@@ -21,6 +22,25 @@
 
 .contInfo h3{
     padding: 15px 0;
+    color: var(--main-primary-color);
+}
+
+.contInfo h1{
+    color: var(--main-primary-color);
+}
+
+.contInfo p{
+    padding: 0 30px 10px 0;
+    font-size: 1.1rem;
+    width: 800px;
+}
+
+.contImg{
+    border-radius: 5000px;
+    border: 2px solid white;
+    padding: 15px;
+    width: 440px;
+    height: 340px;
 }
 
 .contImg img{
@@ -32,14 +52,17 @@
     margin: 0 10px;
     border-radius: 25px;
     border: 1px solid var(--main-primary-color);
+    color: var(--main-primary-color);
+    font-family: '1';
+    font-size: .6rem;
 }
 
 .buttonHeader:hover{
     background-color: var(--main-primary-color);
-    color: var(--main-terciary-color);
+    color: var(--main-alert-color);
 }
 
 .btnActive{
     background-color: var(--main-primary-color);
-    color: var(--main-terciary-color);
+    color: var(--main-alert-color);
 }
