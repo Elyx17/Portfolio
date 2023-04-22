@@ -3,6 +3,7 @@ import './prueba.css'
 
 const Prueba = () => {
     return (
+        <div>
         <div className='prueba'>
 
         <section>
@@ -13,6 +14,10 @@ const Prueba = () => {
         </section>
 
         </div>
+
+            <h3>Hola</h3>
+
+      </div>
     );
 }
 
